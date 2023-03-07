@@ -1,0 +1,7 @@
+npm i graphql express-graphql
+
+---------------------
+stuck at 2:01:00
+https://www.youtube.com/watch?v=ed8SzALpx1Q
+
+can't do the nested thing for some reason. ANNOYING.
