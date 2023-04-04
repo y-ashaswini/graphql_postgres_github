@@ -1,8 +1,12 @@
 const express = require("express");
-const app = express();
 const { graphqlHTTP } = require("express-graphql");
 const schema = require("./schema/schema");
 const { sequelize, books, authors } = require("./models");
+const cors = require("cors");
+
+const app = express();
+// allow cross-origin requests
+app.use(cors());
 
 // setting up middlewear
 app.use(
